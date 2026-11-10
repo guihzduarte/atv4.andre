@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPrime - Venda de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">AutoPrime</div>
+        <button id="dark-mode-toggle" class="theme-btn">🌙 Modo Escuro</button>
+    </header>
+
+    <section class="hero">
+        <h1>Encontre o Carro dos Seus Sonhos</h1>
+        <p>Os melhores veículos seminovos e zero quilômetro com garantia, procedência e taxas especiais de financiamento.</p>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">Destaques da Semana</h2>
+        
+        <div class="car-grid">
+            <!-- Carro 1 -->
+            <div class="car-card">
+                <img src="https://unsplash.com" alt="Sedan Esportivo" class="car-image">
+                <div class="car-info">
+                    <div>
+                        <h3>BMW Série 3 320i</h3>
+                        <p class="car-specs">2023 • Automático • 15.000 km</p>
+                    </div>
+                    <div>
+                        <p class="car-price">R$ 265.900</p>
+                        <button class="buy-btn" onclick="registrarInteresse('BMW Série 3')">Tenho Interesse</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carro 2 -->
+            <div class="car-card">
+                <img src="https://unsplash.com" alt="Esportivo Vermelho" class="car-image">
+                <div class="car-info">
+                    <div>
+                        <h3>Ford Mustang GT V8</h3>
+                        <p class="car-specs">2022 • Automático • 8.500 km</p>
+                    </div>
+                    <div>
+                        <p class="car-price">R$ 449.000</p>
+                        <button class="buy-btn" onclick="registrarInteresse('Ford Mustang GT')">Tenho Interesse</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carro 3 -->
+            <div class="car-card">
+                <img src="https://unsplash.com" alt="SUV Moderno" class="car-image">
+                <div class="car-info">
+                    <div>
+                        <h3>Jeep Compass Limited</h3>
+                        <p class="car-specs">2024 • Automático • 0 km</p>
+                    </div>
+                    <div>
+                        <p class="car-price">R$ 189.500</p>
+                        <button class="buy-btn" onclick="registrarInteresse('Jeep Compass')">Tenho Interesse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AutoPrime Veículos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
